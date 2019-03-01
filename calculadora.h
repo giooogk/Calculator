@@ -1,5 +1,5 @@
-#ifndef calculadora_h
-#define calculadora_h
+#ifndef calculadora_H
+#define calculadora_H
 
 int calculadora(int a. int b)
 
