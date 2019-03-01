@@ -1,5 +1,5 @@
-#ifndef soma_h
-#define soma_h
+#ifndef soma_H
+#define soma_H
 
 int soma(int a,int b)
 
