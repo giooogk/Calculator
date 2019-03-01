@@ -1,3 +1,4 @@
-#ifndef _div_H_
-#define _div_h_
+#ifndef _menu_H_
+#define _menu_h_
 int menu(int a, int b);
+#endif
