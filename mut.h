@@ -1,5 +1,5 @@
-#ifndef mut_h_
-#define mut_h
+#ifndef mut_H
+#define mut_H
 
 int mut(int a, int b)
 
