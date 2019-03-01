@@ -1,4 +1,4 @@
-#ifndef _menu_H
-#define _menu_H
+#ifndef menu_H
+#define menu_H
 int menu(int a, int b);
 #endif
