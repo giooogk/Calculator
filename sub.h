@@ -1,5 +1,5 @@
-#ifndef sub_h
-#define sub_h
+#ifndef sub_H
+#define sub_H
 
 int sub(int a, int b)
 
