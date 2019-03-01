@@ -1,5 +1,5 @@
-#ifndef div_h
-#define div_h
+#ifndef div_H
+#define div_H
 
 int soma(int a, int b)
 
