@@ -2,7 +2,9 @@
 #include "soma.h"
 #include "sub.h"
 #include "mut.h"
-#include "div.h"
+#include "divi.h"
+
+using namespace std;
 
 int main(){
   int a;
@@ -15,8 +17,7 @@ int main(){
   cin >> b;
   cin.ignore ();
   
-  cout <<"Que operacao deseja realizar?\n
-\1. Adicao\t2.Subtracao\t3.Multiplicacao\t4.Divisao\n\n=>";
+  cout <<"Que operacao deseja realizar?\n\1. Adicao\t2.Subtracao\t3.Multiplicacao\t4.Divisao\n\n=>";
   cin.ignore ();
   
   switch(op){
@@ -29,8 +30,8 @@ int main(){
     case 3:
       int mut(int a, int b);
       break;
-    cade 4:
-      int div(int a, int b);
+    case 4:
+      int divi(int a, int b);
       break;
       
   }
