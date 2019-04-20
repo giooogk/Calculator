@@ -1,7 +1,7 @@
 cc= g++
 .DEFALT_GOAL = calculadora
 mut.o: mut.cpp mut.h
-	$(cc) mult.cpp -c
+	$(cc) mut.cpp -c
 soma.o: soma.cpp soma.h
 	$(cc) soma.cpp -c
 menu.o: menu.cpp menu.h
