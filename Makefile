@@ -11,6 +11,6 @@ divi.o: divi.cpp divi.h
 sub.o: sub.cpp sub.h
 	$(cc) sub.cpp -c
 
-calculadora: calculadora.cpp sub.o div.o soma.o mut.o menu.o 
-	$(cc) calculadora.cpp sub.o div.o soma.o mut.o menu.o -o calculadora 
+calculadora: calculadora.cpp sub.o divi.o soma.o mut.o menu.o 
+	$(cc) calculadora.cpp sub.o divi.o soma.o mut.o menu.o -o calculadora 
 
