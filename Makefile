@@ -1,4 +1,4 @@
-cc= g++
+cc = g++
 .DEFALT_GOAL = calculadora
 mut.o: mut.cpp mut.h
 	$(cc) mult.cpp -c
