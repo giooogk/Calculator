@@ -17,7 +17,7 @@ int main(){
   cin >> b;
   cin.ignore ();
   
-  cout <<"Que operacao deseja realizar?\n\1. Adicao\t2.Subtracao\t3.Multiplicacao\t4.Divisao\n\n=>";
+  cout <<"Que operacao deseja realizar?\n 1. Adicao  2.Subtracao 3.Multiplicacao 4.Divisao\n";
   cin.ignore ();
   
   switch(op){
